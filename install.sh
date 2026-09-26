@@ -6,7 +6,7 @@
 set -uo pipefail
 cd "$(dirname "$0")"
 
-APPS=(drop-shelf quick-notes text-grab now-playing mail-brief)
+APPS=(drop-shelf quick-notes text-grab now-playing mail-brief pixel-cat)
 
 if [ $# -eq 0 ]; then
     chosen=()

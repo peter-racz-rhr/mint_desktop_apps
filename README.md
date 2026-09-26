@@ -1,11 +1,12 @@
 # Mint Desktop Apps
 
-Five small, focused desktop apps for **Linux Mint** (Cinnamon, also MATE and Xfce) that fill
-gaps in everyday school and study work: moving files between windows, quick notes, copying
+Six small desktop apps for **Linux Mint** (Cinnamon, also MATE and Xfce): five that fill
+gaps in everyday school and study work (moving files between windows, quick notes, copying
 text from anywhere on screen, a Spotify widget with synced lyrics, and a Gmail digest with
-AI summaries and deadline detection.
+AI summaries and deadline detection) and one just for fun: a pixel-art cat that lives on
+your desktop.
 
-Each app is a single Python file built on GTK 3, installs per user with one script (no root
+Each app is a small Python program built on GTK 3, installs per user with one script (no root
 needed except for missing system packages), starts quietly on login, and uses a global
 keyboard shortcut where it makes sense.
 
@@ -20,6 +21,7 @@ keyboard shortcut where it makes sense.
 | [Text Grab](#text-grab) | Draw a box around anything on screen and get its text or QR code | Ctrl+Alt+G |
 | [Now Playing](#now-playing) | Spotify widget with queue and synced lyrics, plus a retro terminal look | - |
 | [Mail Brief](#mail-brief) | Gmail digest with short AI summaries, deadlines and calendar export | - |
+| [Pixel Cat](#pixel-cat) | A pixel-art cat that walks, naps and jumps on your windows | Ctrl+Alt+C |
 
 ## Quick start
 
@@ -137,6 +139,28 @@ that opens into a list of unread emails.
 
 <br clear="right">
 
+## Pixel Cat
+
+<p align="center"><img src="docs/screenshots/pixel-cat-coats.png" alt="Six coats to choose from" width="900"></p>
+<p align="center"><img src="docs/screenshots/pixel-cat-showcase.png" alt="Pixel Cat napping, being petted, listening to music, hungry, eating and playing" width="940"></p>
+
+A desktop pet in the tradition of Neko and Shimeji. Pick one of six coats and a name, and
+she moves in.
+
+- Walks along the tops of windows, naps on them and jumps between them; rides along when a
+  window moves and lands on her feet when it closes
+- Climbs the screen edges and walks upside down along the top
+- **Pet her** by rubbing the mouse over her: she purrs and pixel hearts float up
+- Drag her around (or throw her), call her to the mouse with **Ctrl+Alt+C**
+- Stalks and pounces on the mouse pointer
+- Puts on a **headset** and bobs her head when music is playing (MPRIS)
+- Gentle needs: she asks for treats and play with thought bubbles, never gets sick
+- Hides during fullscreen video and presentations
+- Behaviour is a hand-tuned state machine with weighted random choices, no AI needed;
+  sprites are drawn as text grids and rendered with cairo; sounds are synthesized
+
+[Full documentation](pixel-cat/README.md)
+
 ---
 
 ## Requirements
@@ -149,10 +173,11 @@ that opens into a list of unread emails.
   - Text Grab: `tesseract-ocr` with `-hun`, `-eng`, `-deu` language packs, and `zbar-tools`
   - Now Playing: the Spotify desktop app (deb, Flatpak or Snap)
   - Mail Brief: a Gmail app password and a free Groq API key
+  - Pixel Cat: `gir1.2-wnck-3.0` (to see where the windows are)
 
 ## How it is built
 
-- **One file per app**, standard library plus PyGObject, cairo and Pango. No pip packages,
+- **One or two files per app**, standard library plus PyGObject, cairo and Pango. No pip packages,
   no virtual environments.
 - **Global shortcuts** use `XGrabKey` through `ctypes`, so they work on Cinnamon, MATE and
   Xfce without touching the desktop's settings. If a shortcut is taken, the app picks the
