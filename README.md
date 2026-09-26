@@ -143,15 +143,20 @@ that opens into a list of unread emails.
 
 <p align="center"><img src="docs/screenshots/pixel-cat-coats.png" alt="Six coats to choose from" width="900"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-showcase.png" alt="Pixel Cat napping, being petted, listening to music, hungry, eating and playing" width="940"></p>
+<p align="center"><img src="docs/screenshots/pixel-cat-more.png" alt="Pixel Cat with a parachute, climbing, in bed, and sitting inside windows" width="940"></p>
 
 A desktop pet in the tradition of Neko and Shimeji. Pick one of six coats and a name, and
 she moves in.
 
 - Walks along the tops of windows, naps on them and jumps between them; rides along when a
-  window moves and lands on her feet when it closes
+  window moves and floats down on a parachute when it closes
+- Sits on lines inside windows too: message boxes, chat bubbles, video progress bars
+  (found with a light cairo-based edge scan of the screen)
 - Climbs the screen edges and walks upside down along the top
 - **Pet her** by rubbing the mouse over her: she purrs and pixel hearts float up
-- Drag her around (or throw her), call her to the mouse with **Ctrl+Alt+C**
+- Drag her around (or throw her); **Ctrl+Alt+C** calls her, and she finds a way to you
+  over the windows (Dijkstra over jumps and climbs up window sides)
+- **Bedtime:** pajamas, a nightcap and a little bed; she sleeps until morning
 - Stalks and pounces on the mouse pointer
 - Puts on a **headset** and bobs her head when music is playing (MPRIS)
 - Gentle needs: she asks for treats and play with thought bubbles, never gets sick
