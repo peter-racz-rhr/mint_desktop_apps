@@ -149,7 +149,7 @@ A desktop pet in the tradition of Neko and Shimeji. Pick one of six coats and a 
 she moves in.
 
 - Walks along the tops of windows, naps on them and jumps between them; rides along when a
-  window moves and floats down on a parachute when it closes
+  window moves, floats down on a parachute (or bounces on a trampoline) when it closes
 - Sits on lines inside windows too: message boxes, chat bubbles, video progress bars
   (found with a light cairo-based edge scan of the screen)
 - Climbs the screen edges and walks upside down along the top
