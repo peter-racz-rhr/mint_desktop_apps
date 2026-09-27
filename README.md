@@ -1,9 +1,9 @@
 # Mint Desktop Apps
 
-Six small desktop apps for **Linux Mint** (Cinnamon, also MATE and Xfce): five that fill
+Seven small desktop apps for **Linux Mint** (Cinnamon, also MATE and Xfce): six that fill
 gaps in everyday school and study work (moving files between windows, quick notes, copying
-text from anywhere on screen, a Spotify widget with synced lyrics, and a Gmail digest with
-AI summaries and deadline detection) and one just for fun: a pixel-art cat that lives on
+text from anywhere on screen, a Spotify widget with synced lyrics, a Gmail digest with
+AI summaries and deadline detection, and a Downloads folder that tidies itself) and one just for fun: a pixel-art cat that lives on
 your desktop.
 
 Each app is a small Python program built on GTK 3, installs per user with one script (no root
@@ -21,6 +21,7 @@ keyboard shortcut where it makes sense.
 | [Text Grab](#text-grab) | Draw a box around anything on screen and get its text or QR code | Ctrl+Alt+G |
 | [Now Playing](#now-playing) | Spotify widget with queue and synced lyrics, plus a retro terminal look | - |
 | [Mail Brief](#mail-brief) | Gmail digest with short AI summaries, deadlines and calendar export | - |
+| [Tidy Downloads](#tidy-downloads) | Sorts your Downloads folder by type and clears old installers | - |
 | [Pixel Cat](#pixel-cat) | A pixel-art cat that walks, naps and jumps on your windows | Ctrl+Alt+C |
 
 ## Quick start
@@ -136,6 +137,24 @@ that opens into a list of unread emails.
 - Credentials are stored locally with owner-only permissions; only summaries are kept
 
 [Full documentation](mail-brief/README.md)
+
+<br clear="right">
+
+## Tidy Downloads
+
+<img src="docs/screenshots/tidy-downloads.png" alt="Tidy Downloads window" width="484" align="right">
+
+Keeps the Downloads folder in order without thinking about it.
+
+- 15 minutes after a download finishes it moves into PDFs, Images, Documents, Installers,
+  Archives, Videos, Music or Other (inside Downloads)
+- Installers unused for 30 days go to the Trash (never deleted for real)
+- Every tidy can be undone, even the ones that went to the Trash; a notification offers
+  **Undo** right away
+- Leaves unfinished downloads, hidden files and your own folders alone; never overwrites
+- Pixel Cat comes out with a broom when it tidies
+
+[Full documentation](tidy-downloads/README.md)
 
 <br clear="right">
 
