@@ -145,6 +145,7 @@ that opens into a list of unread emails.
 <p align="center"><img src="docs/screenshots/pixel-cat-showcase.png" alt="Pixel Cat napping, being petted, listening to music, hungry, eating and playing" width="940"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-more.png" alt="Pixel Cat with a parachute, climbing, in bed, and sitting inside windows" width="940"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-gadgets.png" alt="Pixel Cat using a grappling hook and a portal gun" width="760"></p>
+<p align="center"><img src="docs/screenshots/pixel-cat-fun.png" alt="Pixel Cat chasing a butterfly, eyeing a mug, and in seasonal hats" width="940"></p>
 
 A desktop pet in the tradition of Neko and Shimeji. Pick one of six coats and a name, and
 she moves in.
@@ -159,6 +160,8 @@ she moves in.
   over the windows (Dijkstra over jumps, climbs up window sides and a grappling hook),
   or opens a pair of portals when there's no way by paw
 - **Bedtime:** pajamas, a nightcap and a little bed; she sleeps until morning
+- Chases butterflies, knocks mugs off window edges, and wears seasonal hats (pumpkin,
+  Santa hat, and a party hat on her adoption birthday)
 - Stalks and pounces on the mouse pointer; goes on adventures around the screen with her
   gadgets, and (being a cat) sometimes slips off an edge
 - Puts on a **headset** and bobs her head when music is playing (MPRIS)
