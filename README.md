@@ -159,7 +159,8 @@ she moves in.
   over the windows (Dijkstra over jumps, climbs up window sides and a grappling hook),
   or opens a pair of portals when there's no way by paw
 - **Bedtime:** pajamas, a nightcap and a little bed; she sleeps until morning
-- Stalks and pounces on the mouse pointer
+- Stalks and pounces on the mouse pointer; goes on adventures around the screen with her
+  gadgets, and (being a cat) sometimes slips off an edge
 - Puts on a **headset** and bobs her head when music is playing (MPRIS)
 - Gentle needs: she asks for treats and play with thought bubbles, never gets sick
 - Hides during fullscreen video and presentations
