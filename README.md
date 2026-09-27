@@ -142,10 +142,12 @@ that opens into a list of unread emails.
 ## Pixel Cat
 
 <p align="center"><img src="docs/screenshots/pixel-cat-coats.png" alt="Six coats to choose from" width="900"></p>
+<p align="center"><img src="docs/screenshots/pixel-cat-styles.png" alt="Classic and detailed style" width="900"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-showcase.png" alt="Pixel Cat napping, being petted, listening to music, hungry, eating and playing" width="940"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-more.png" alt="Pixel Cat with a parachute, climbing, in bed, and sitting inside windows" width="940"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-gadgets.png" alt="Pixel Cat using a grappling hook and a portal gun" width="760"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-fun.png" alt="Pixel Cat chasing a butterfly, eyeing a mug, and in seasonal hats" width="940"></p>
+<p align="center"><img src="docs/screenshots/pixel-cat-extras.png" alt="Laser pointer, box, study buddy, letters and weather" width="940"></p>
 
 A desktop pet in the tradition of Neko and Shimeji. Pick one of six coats and a name, and
 she moves in.
@@ -162,6 +164,11 @@ she moves in.
 - **Bedtime:** pajamas, a nightcap and a little bed; she sleeps until morning
 - Chases butterflies, knocks mugs off window edges, and wears seasonal hats (pumpkin,
   Santa hat, and a party hat on her adoption birthday)
+- Two art styles to choose from: Classic (48 px) and Detailed (64 px)
+- Play with her: laser pointer and cardboard box; she studies along with you and reminds
+  you to take a break after 45 minutes; naps in the middle of the screen while you're away
+- Umbrella and scarf from the live Budapest weather, envelopes from Mail Brief for important
+  emails, polaroid photos, and a diary of your time together
 - Stalks and pounces on the mouse pointer; goes on adventures around the screen with her
   gadgets, and (being a cat) sometimes slips off an edge
 - Puts on a **headset** and bobs her head when music is playing (MPRIS)
