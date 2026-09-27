@@ -184,6 +184,8 @@ she moves in.
 - Chases butterflies, knocks mugs off window edges, and wears seasonal hats (pumpkin,
   Santa hat, and a party hat on her adoption birthday)
 - Two art styles to choose from: Classic (48 px) and Detailed (64 px)
+- Works across two (or more) screens: walks or hops between them, and moves to the other
+  screen when hers goes fullscreen
 - Play with her: laser pointer and cardboard box; she studies along with you and reminds
   you to take a break after 45 minutes; naps in the middle of the screen while you're away
 - Umbrella and scarf from the live Budapest weather, envelopes from Mail Brief for important
