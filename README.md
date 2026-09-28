@@ -162,14 +162,15 @@ Keeps the Downloads folder in order without thinking about it.
 
 <p align="center"><img src="docs/screenshots/pixel-cat-coats.png" alt="Six coats to choose from" width="900"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-styles.png" alt="Classic and detailed style" width="900"></p>
+<p align="center"><img src="docs/screenshots/pixel-cat-cute.png" alt="The cute style: big round head and sparkly eyes" width="900"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-showcase.png" alt="Pixel Cat napping, being petted, listening to music, hungry, eating and playing" width="940"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-more.png" alt="Pixel Cat with a parachute, climbing, in bed, and sitting inside windows" width="940"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-gadgets.png" alt="Pixel Cat using a grappling hook and a portal gun" width="760"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-fun.png" alt="Pixel Cat chasing a butterfly, eyeing a mug, and in seasonal hats" width="940"></p>
 <p align="center"><img src="docs/screenshots/pixel-cat-extras.png" alt="Laser pointer, box, study buddy, letters and weather" width="940"></p>
 
-A desktop pet in the tradition of Neko and Shimeji. Pick one of six coats and a name, and
-she moves in.
+A desktop pet in the tradition of Neko and Shimeji. Pick one of three styles (Classic,
+Detailed or Cute), one of six coats and a name, and she moves in.
 
 - Walks along the tops of windows, naps on them and jumps between them; rides along when a
   window moves, floats down on a parachute (or bounces on a trampoline) when it closes
